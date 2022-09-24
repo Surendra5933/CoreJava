@@ -8,19 +8,31 @@ abstract class Person{
 		System.out.println("Age :"+age);
 	}
 	Person(String color){
-		super();
-		System.out.println(" of the person "+color);
+		System.out.println("Color of the person is "+color);
 	}
 	Person(int height){
-		System.out.println("Height of the person");
+		System.out.println("Height of the person is "+height);
 	}
 }
 class Balu extends Person{
+	Balu(){
+		super();
+	}
+	Balu(String Name,String age){
+		super("Surendra","23");
+	}
+	Balu(String color){
+		super("White");	
+	}
+	Balu(int height){
+		super(57);
+	}
 }
 public class Constructor_In_AbstractClass {
-	
 	public static void main(String[] args) {
-		
+		Balu h = new Balu();
+		Balu g = new Balu("Surendra","23");
+		Balu j = new Balu("white");
+		Balu l = new Balu(57);
 	}
-
 }

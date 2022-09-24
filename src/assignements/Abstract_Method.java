@@ -1,7 +1,7 @@
 package assignements;
-abstract class Animal{
+ abstract class Animal{
 	abstract void lifespan();
-	void breadth (){
+	 void breadth (){
 		System.out.println("oxygen");
 	}
 }
