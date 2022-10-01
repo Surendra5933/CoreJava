@@ -1,4 +1,4 @@
-package rohitprograms;
+package assignements;
 import java.util.Scanner;
 public class MultiDimentional_Array {
 

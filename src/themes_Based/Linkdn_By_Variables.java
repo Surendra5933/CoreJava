@@ -1,5 +1,4 @@
 package themes_Based;
-
 class Linkdn_Details{
 	String Profile_Name;
 	String Profession;
@@ -11,7 +10,6 @@ class Linkdn_Details{
 	long impressions;
 }
 public class Linkdn_By_Variables {
-
 	public static void main(String[] args) {
 		Linkdn_Details  linkdn = new Linkdn_Details();
 		linkdn.Profile_Name="Surendra";
