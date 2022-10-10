@@ -12,7 +12,7 @@ public class Stream_Methods {
 		List<Integer> square = number.stream().collect(Collectors.toList());
 		System.out.println(square);
 		
-		List<String> names = Arrays.asList("Vinay", "Lokesh", "Surendra");
+		List<String> names = Arrays.asList("Vinay", "Lokesh", "Surendra"); 
 		List<String> Result = names.stream().filter(s->s.startsWith("S")).collect(Collectors.toList());
 		System.out.println(Result);
 		
