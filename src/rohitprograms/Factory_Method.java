@@ -31,8 +31,7 @@ class CarFactory{
 		else if(carname.equals("Bmw1"))
 		return new Bmw1();
 		else
-		return null;
-		
+		return null;	
 	}
 }
 public class Factory_Method {

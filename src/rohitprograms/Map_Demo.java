@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.TreeMap;
 public class Map_Demo {
 	public static void main(String[] args) {
-		HashMap<Integer,String> hj = new HashMap<Integer,String>();;
+		HashMap<Integer,String> hj = new HashMap<Integer,String>();
 		hj.put(1023,"Bob" );
 		hj.put(1024,"Alice" );
 		hj.put(1025,"jhon" );
