@@ -5,7 +5,7 @@ public class Arrays {
 		int a[] = new int[5];
 		Scanner sc = new Scanner(System.in);
 		for(int i =0; i<5; i++) {
-			System.out.println("Entre the elements");
+			System.out.println("Enter the elements");
 			a[i]=sc.nextInt();
 		}
 		int sum=0;
