@@ -1,5 +1,4 @@
 
-
 class Officer{
 	int eid;
 	double salary;
@@ -18,6 +17,7 @@ class Officer{
 		System.out.println("Employee id is " +eid);
 		System.out.println("Employee salary is" +salary);
 		System.out.println("company = " +company);
+		System.out.println();
 	}
 }
 
