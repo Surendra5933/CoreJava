@@ -12,6 +12,7 @@ public class TreeSet_Methods {
 		treeset.add(73);
 		treeset.add(83);
 		treeset.add(93);
+		
 		System.out.println("Initial Elements"+treeset);
 		System.out.println("First Elemnet in Set is "+treeset.first());
 		System.out.println("last Element in the Set is "+treeset.last());
@@ -22,5 +23,4 @@ public class TreeSet_Methods {
 		System.out.println("the lowest(first) element in the set is "+treeset.pollFirst());
 		System.out.println("the highest(last) element is "+treeset.pollLast());
 	}
-
 }

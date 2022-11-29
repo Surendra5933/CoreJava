@@ -18,7 +18,7 @@ public class Multiple_Catch_Block {
 			System.out.println("Wraning:Some Other Exception");
 		}
 		System.out.println("Out of try-catch block");
-
+		
 	}
 
 }

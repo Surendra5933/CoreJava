@@ -6,7 +6,7 @@ interface Vechile {
 }
 abstract class Car implements Vechile{
 	void viper() {
-		System.out.println("Automatic ");
+		System.out.println("the viper is Automatic ");
 	}
 }
 abstract class Bike implements Vechile{
@@ -81,10 +81,12 @@ public class Interfaces {
 		hj.milage();			
 		hj.speed();
 		hj= new Rangerover();
+		hj.viper();
 		hj.cost();
 		hj.milage();			
 		hj.speed();
 		hj= new Jeep();
+		hj.viper();
 		hj.cost();
 		hj.milage();			
 		hj.speed();

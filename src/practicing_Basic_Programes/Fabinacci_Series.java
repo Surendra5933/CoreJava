@@ -14,5 +14,4 @@ public class Fabinacci_Series {
 			s=t;
 		}
 	}
-
 }

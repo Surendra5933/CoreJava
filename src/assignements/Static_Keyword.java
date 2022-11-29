@@ -6,15 +6,14 @@ class Student{
 	   static String college ="Mist";
 	   
 	   Student(int r, String n){  
-	   rollno = r;  
-	   name = n;  
-	   }  
-	     
+		   rollno = r;  
+		   name = n;  
+	   }    
 	   void display (){
 		   System.out.println(rollno+" "+name+" "+college);
-		   }
+	   }
 
-	}
+}
 public class Static_Keyword {
 
 	public static void main(String[] args) {

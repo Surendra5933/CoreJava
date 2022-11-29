@@ -24,6 +24,7 @@ class Cat extends Animal{
 public class Abstract_Method {
 	public static void main(String[] args) {
 		
+//		Upcasting
 		Animal c = new dog();
 		c.breadth();
 		c.lifespan();

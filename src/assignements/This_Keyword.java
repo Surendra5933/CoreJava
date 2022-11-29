@@ -5,7 +5,7 @@ class Officer{
 	double salary;
 	String company;
 	Officer(int eid, double salary){
-		this("INFOSYS");
+    	this("INFOSYS");
 		this.eid=eid;
 		this.salary=salary;	
 		this.show();
@@ -18,6 +18,7 @@ class Officer{
 		System.out.println("Employee id is " +eid);
 		System.out.println("Employee salary is" +salary);
 		System.out.println("company = " +company);
+		System.out.println();
 	}
 }
 

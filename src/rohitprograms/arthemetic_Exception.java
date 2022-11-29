@@ -15,7 +15,5 @@ public class arthemetic_Exception {
 		System.out.println("Statement-4");
 		System.out.println("Statement-5");
 		System.out.println("statement-6");
-
 	}
-
 }
